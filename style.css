@@ -3,3 +3,30 @@ body {
   height: 100%;
   margin: 0;
 }
+h1, nav {
+  text-align: center;
+  color: rgb(0, 0, 0)
+}
+#featured-property img{
+  display: block;
+  margin:auto
+}
+#featured-property figcaption{
+  text-align: center;
+}
+#featured-property p{
+  display: flex;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  height: 80px;
+}
+#details{
+  display: flex;
+  margin-left: 200px;
+  gap: 400px;
+  margin: 20px;
+  background-color: red;
+  text-align: center;
+  height: fit-content;
+}
